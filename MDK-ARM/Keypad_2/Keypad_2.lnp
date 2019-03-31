@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"keypad_2\stm32f1xx_hal_gpio_ex.o"
+"keypad_2\stm32f1xx_hal_tim.o"
+"keypad_2\stm32f1xx_hal_rcc_ex.o"
+"keypad_2\stm32f1xx_hal_rcc.o"
+"keypad_2\stm32f1xx_hal_flash.o"
+"keypad_2\stm32f1xx_hal_flash_ex.o"
+"keypad_2\stm32f1xx_hal_gpio.o"
+"keypad_2\stm32f1xx_hal_tim_ex.o"
+"keypad_2\stm32f1xx_hal_cortex.o"
+"keypad_2\stm32f1xx_hal_pwr.o"
+"keypad_2\stm32f1xx_hal_dma.o"
+"keypad_2\stm32f1xx_hal.o"
+"keypad_2\stm32f1xx_hal_uart.o"
+"keypad_2\startup_stm32f103xb.o"
+"keypad_2\main.o"
+"keypad_2\stm32f1xx_it.o"
+"keypad_2\stm32f1xx_hal_msp.o"
+"keypad_2\keypad.o"
+"keypad_2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Keypad_2\Keypad_2.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Keypad_2.map" -o Keypad_2\Keypad_2.axf
