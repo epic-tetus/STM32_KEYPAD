@@ -107,15 +107,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-//	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, 1);
-//	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1);
-//	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, 1);
-//	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, 1);
-//	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, 1);
-//	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, 1);
-//	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
-//	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, 1);
-//	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 1);
+
   while (1)
   {
 		char Key = GetKey();
